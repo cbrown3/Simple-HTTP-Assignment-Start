@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "first http server",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbrown3/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Chris Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbrown3/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/cbrown3/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
